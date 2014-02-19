@@ -2,6 +2,7 @@
 	position: absolute;
 	width: 360px;
 	height: 100px;
+	bottom: 10px;
 	background: #ccc;
 	border: solid 3px rgba(0,0,0,0.2);
 	font-family: sans-serif;
@@ -23,6 +24,7 @@
 	background: #D44887;
 	border: solid 2px #942C5B;
 	border-radius: 2px;
+	font-size: 8px;
 }
 
 #gamepad button.button-arrow.active{
