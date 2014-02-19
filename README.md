@@ -7,7 +7,7 @@ A gamepad to control the crazy game [twitchplayspokemon](http://www.twitch.tv/tw
 
 ### How to use it ?
 
-One does simply open its javascript console (ctrl+maj+i on chrome) and paste this :
+One does simply open his javascript console (ctrl+maj+i on chrome) and paste this :
 
 > $.getScript("https://raw.github.com/altitude-labs/gamepad-twitchplayspokemon/master/gamepad.js")
 
