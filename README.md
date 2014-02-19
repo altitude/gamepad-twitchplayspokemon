@@ -15,4 +15,4 @@ And it's done ! You can now enjoy this experiment without melting your fingers.
 
 ### Contributions
 
-I will be more than happy to accept any relevant pull request.
+I will be more than happy to accept any relevant pull request, including additional css sheets. Use the issue tracker to report bugs.
