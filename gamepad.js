@@ -1,3 +1,5 @@
+var gp_style = '#gamepad{position:absolute;z-index:500;width:360px;height:100px;bottom:10px;background:#ccc;border:solid 3px rgba(0,0,0,.2);font-family:sans-serif}#gamepad button{position:absolute;border:0;cursor:pointer}#gamepad button.button-arrow{width:30px;height:30px;background:#D44887;border:solid 2px #942C5B;border-radius:2px;font-size:8px}#gamepad button.button-arrow.active{background:#DD7AA6}#gamepad button.button-up{top:13px;left:60px}#gamepad button.button-down{top:58px;left:60px}#gamepad button.button-left{top:36px;left:18px}#gamepad button.button-right{top:36px;left:102px}#gamepad button.button-ab{width:40px;height:40px;background:#577CCC;border:solid 2px #2C4994;border-radius:100%;font-size:18px;font-weight:700;color:#2C4994}#gamepad button.button-ab.active{background:#849FDA}#gamepad button.button-a{top:13px;right:30px}#gamepad button.button-b{top:43px;right:70px}';
+
 var gp_view = '<div id="gamepad">\
 		<button class="button-up button-arrow" action="up">U</button>\
 		<button class="button-down button-arrow" action="down">D</button>\
@@ -8,7 +10,8 @@ var gp_view = '<div id="gamepad">\
 	</div>';
 
 // apply gamepad stylesheet
-$("body").append('<link rel="stylesheet" href="https://raw.github.com/altitude-labs/gamepad-twitchplayspokemon/master/gamepad-classic.css" type="text/css" />');
+// $("body").append('<link rel="stylesheet" href="https://raw.github.com/altitude-labs/gamepad-twitchplayspokemon/master/gamepad-classic.css" type="text/css" />');
+$("head").append('<style type="text/css">'+gp_style+'</style>');
 
 // insert gamepad view
 $("body").prepend(gp_view);
