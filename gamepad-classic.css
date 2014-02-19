@@ -80,3 +80,18 @@
 	top:43px;
 	right:70px;
 }
+
+/**
+* Link to code
+*/
+#gp-link-code{
+	font-size: 10px;
+	color: rgba(0,0,0,0.5);
+	text-decoration: none;
+	position: absolute;
+	left: 166px;
+	bottom: 10px;
+}
+#gp-link-code:hover{
+	color: rgba(0,0,0,0.8);
+}
