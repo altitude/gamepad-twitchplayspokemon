@@ -1,5 +1,6 @@
 #gamepad{
 	position: absolute;
+	z-index: 500;
 	width: 360px;
 	height: 100px;
 	bottom: 10px;
